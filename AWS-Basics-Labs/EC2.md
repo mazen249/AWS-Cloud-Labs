@@ -77,9 +77,16 @@ The following rules were configured:
 
 ## 🔐 SSH Connection
 
-After launching the instance, an SSH connection was established successfully.
+After launching the EC2 instance, I connected to the Ubuntu server using **SSH**.
 
-The EC2 instance provided an Ubuntu shell environment:
+The connection was successfully established, and the Ubuntu terminal became available for remote administration.
 
-```text
-ubuntu@ip-172-31-16-218:~$
+![EC2 SSH Connection](./screenshots/04-ec2-ssh-connection.png)
+
+The successful SSH session confirms that the EC2 instance was reachable and that the configured access settings were working correctly.
+
+The following commands were then used to verify the remote Linux environment:
+
+```bash
+ls
+pwd
