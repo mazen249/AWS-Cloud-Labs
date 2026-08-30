@@ -89,4 +89,8 @@ The following commands were then used to verify the remote Linux environment:
 
 ```bash
 ls
+<<<<<<< HEAD
 pwd
+=======
+pwd
+>>>>>>> c328c520a0ff3d9e743d86d055b02edbe71efd7e
