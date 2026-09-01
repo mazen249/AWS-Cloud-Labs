@@ -75,9 +75,7 @@ nc -vz rds-testdumo.cebumiksuhao.us-east-1.rds.amazonaws.com 3306
 
 The connection successfully reached the RDS endpoint on port `3306`.
 
-![RDS Connectivity Test](./screenshots/05-rds-connection.png)
 
----
 
 ## 🗃️ Connect to RDS MySQL
 
