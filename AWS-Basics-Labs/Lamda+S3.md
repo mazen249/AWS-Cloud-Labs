@@ -23,7 +23,8 @@ The lab covers Lambda function creation, Python runtime configuration, execution
 
 Created an Amazon S3 bucket to act as the storage source for the Lambda event-driven workflow.
 
-![S3 Bucket Creation](./screenshots/01-s3-bucket.png)
+
+![Create Lambda Function](./screenshots/02-create-lambda.png)
 
 The bucket was configured in the `us-east-1` region.
 
@@ -37,7 +38,8 @@ Created a Lambda function named `myNetflixfunction` using:
 - **Python 3.14**
 - AWS-managed execution role
 
-![Create Lambda Function](./screenshots/02-create-lambda.png)
+
+![Lambda Execution Role](./screenshots/03-lambda-execution-role.png)
 
 The Lambda function provides the serverless compute component of the lab.
 
@@ -47,7 +49,7 @@ The Lambda function provides the serverless compute component of the lab.
 
 Reviewed the Lambda execution role and its permissions.
 
-![Lambda Execution Role](./screenshots/03-lambda-execution-role.png)
+![Lambda Python Code](./screenshots/04-lambda-code.png)
 
 The role includes permissions required for Lambda to create and write logs to Amazon CloudWatch Logs.
 
@@ -59,7 +61,9 @@ This demonstrates the relationship between **Lambda and IAM execution roles**.
 
 The Lambda function uses Python and the AWS SDK for Python (`boto3`) to interact with Amazon S3.
 
-![Lambda Python Code](./screenshots/04-lambda-code.png)
+
+![Lambda Monitoring](./screenshots/06-lambda-monitoring.png)
+
 
 The function is designed to process information from an S3 event and retrieve an S3 object using the S3 API.
 
@@ -92,7 +96,8 @@ This creates an event-driven relationship where an S3 object creation event can 
 
 Reviewed the Lambda monitoring metrics through the AWS console.
 
-![Lambda Monitoring](./screenshots/06-lambda-monitoring.png)
+
+![Lambda Overview](./screenshots/07-lambda-overview.png)
 
 The monitoring view shows Lambda runtime metrics including:
 
@@ -112,7 +117,7 @@ The displayed metrics provide visibility into Lambda execution behavior.
 
 Reviewed the Lambda function overview and its relationship with Amazon S3.
 
-![Lambda Overview](./screenshots/07-lambda-overview.png)
+![S3 Bucket Creation](./screenshots/01-s3-bucket.png)
 
 The architecture shows:
 
