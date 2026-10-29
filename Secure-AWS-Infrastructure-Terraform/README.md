@@ -12,7 +12,7 @@ The project uses a custom VPC with separate public and private subnets, an Inter
 
 ### 🖼️ AWS Resource Map
 
-![AWS VPC Resource Map](screenshots/05-vpc-resource-map.png)
+![AWS VPC Resource Map](screenshots/01-project-architecture.png)
 
 ---
 
