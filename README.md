@@ -28,12 +28,12 @@ Each lab focuses on:
 * Documenting practical implementation steps and technical findings.
 
 ---
-
 ## 🚀 Projects Portfolio
 
-| # | Project Name | Professional Skills Acquired | Status & Link |
-| :--- | :--- | :--- | :--- |
-| **01** | **☁️ AWS-Basics-Labs** | Hands-on practice with AWS IAM,S3, EC2 and Lamda, VPC, Subnets, Route Tables, CloudWatch and CloudTrail | [📂 View](./AWS-Basics-Labs/) |
+| # | Project Name | Skills Demonstrated | Status & Link |
+|---|---|---|---|
+| 01 | ☁️ AWS Basics Labs | IAM, S3, EC2, Lambda, VPC, CloudWatch, CloudTrail | [📂 View Project](./AWS-Basics-Labs/) |
+| 02 | 🏗️ Secure AWS Infrastructure with Terraform | Terraform, VPC, Public & Private Subnets, NAT Gateway, IAM, EC2, CloudWatch | [📂 View Project](./Secure-AWS-Infrastructure-Terraform/) |
 
 
 ---
